@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name = "viewport" content="with=device-width, initial-scale=1.0">
+	<title> Andry Rakotonjanabelo </title>
+	<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+</style>
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li> <a href="#about-me">About</a></li>
+					<li> <a href="#Experience">Experience</a></li>
+					<li> <a href="#Work">Work</a></li>
+					<li> <a href="">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+
+		</nav>
+		
+	<div class= "text-box">
+		<h1> Welcome! </h1>
+		<p>I'm Andry A. Rakotonjanabelo, and I'm an impassinated learner in Computer Science, Psychology and the world!</p> 
+		<a href="#about-me" class="hero-btn">Explore around to find out more!</a>
+	</div>
+	</section>
+
+	<!--About me-->
+
+	<section class="about">
+		<h1>About me!</h1>
+		<p id="about-me">Here are a few things about me.</p>
+
+		<div class="about-me">
+			<h3>My story</h3>
+			<p style="font-family:'PT Serif'">I am a junior at <a href="https://www.gettysburg.edu/">Gettysburg College</a> studying CS + Psychology (+ minor in Data Science). I come all the way from Madagascar to the US to further my studies and take advantage of opportunities to grow as a person and a student. I love travelling to expand my horizons and see new places and descovering new arts and sciences. I spent most of my life growing in Madagascar and had the oppportunity to attend an English school (Vision Valley School) that eventually enabled me to come to the U.S for my college studies.
+			<h3>Fun fact</h3>
+			<p>I love cooking.</p>
+
+		</div>
+	</section>
+
+	<div>
+		<center>
+			<img src="images/Andry.jpg" alt ="" width="1000px" height="1000px">
+			<p>A picture of me.</p>
+		</center>
+	</div>
+
+	<!---- Experience ---->
+
+	<section class="exp">
+		<h1>My Experience</h1>
+		<div class="experience">
+		<p id=Experience>I recently complete Google's <strong>STEP internship </strong> this past summer (2022). It's an experiential internship in Engineering where I got 
+		to take part in Google's Android System and Intelligence team.</p>
+	</div>
+	</section>
+
+<!---- Work ---->
+
+	<section class="work">
+		<h1>Related Works</h1>
+		<div class="works">
+		<p id=Work><h3>Here are a list of some of my works:	</h3>
+		<ul class="worklist">
+			<li> <a href="http://cs.gettysburg.edu/~tneller/archive/cs371/cozmo/22sp/rakotonjanabelo/ankimontecarlo.wordpress.com/index.html">AI Project: Anki Cozmo Monte Carlo Localization </a></li>
+  			<li><a href="pdf/Andry Final Draft Experiment.pdf">Psych Experiment on Stereotype Threat.</a></li>
+			<li>Milk</li>
+		</ul>
+	</p>
+	</div>
+	</section>
+
+
+	<!---JavaScript for Toggle Menu--->
+
+	<script>
+
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+			}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+</body>
+</html>
