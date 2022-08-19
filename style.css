@@ -200,11 +200,25 @@ p{
   list-style-position: inside;
 }
 
+/*------Contact------*/
+
+.contact {
+    flex-basis: 40%;
+    background: #bff4ff;
+    border-radius: 18px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-align: center;
+}
+
 /*------Image------*/
 .picture {
 	background-size: cover;
 }
 
+/*------Icon------*/
 .fa-facebook {
   background: #3B5998;
   color: white;
