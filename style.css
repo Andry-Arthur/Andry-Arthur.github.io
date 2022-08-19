@@ -201,6 +201,12 @@ p{
 }
 
 /*------Contact------*/
+.contct {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
 
 .contact {
     flex-basis: 40%;
