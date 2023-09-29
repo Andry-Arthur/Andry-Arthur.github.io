@@ -12,6 +12,14 @@
 	background-size: cover;
 	position: relative;
 }
+.logo {
+    display: block;
+    max-width: 200px;
+    max-height: 95px;
+    width: auto;
+    height: auto;
+}
+
 nav{
 	display: flex;
 	padding: 2% 6%;
