@@ -221,10 +221,6 @@ p{
 
 /*------Image------*/
 .picture {
-	background-size: cover;
-}
-
-img {
     max-width: 100%;
     min-width: 300px;
     height: auto;
