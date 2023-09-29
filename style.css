@@ -224,6 +224,11 @@ p{
 	background-size: cover;
 }
 
+img {
+    max-width: 50%;
+    max-height: 50%
+}
+
 /*------Icon------*/
 .fa {
   padding: 20px;
