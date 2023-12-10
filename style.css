@@ -12,6 +12,13 @@
 	background-size: cover;
 	position: relative;
 }
+
+#bgVideo {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+}
+
 .logo {
     display: block;
     max-width: 200px;
