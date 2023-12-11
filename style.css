@@ -61,7 +61,7 @@ nav img{
 	content: '';
 	width: 0%;
 	height: 2px;
-	background: #929AAB;
+	background: #2CBBFD;
 	display: block;
 	margin: auto;
 	transition: 0.5s;
@@ -149,6 +149,7 @@ nav .fa {
     margin: auto;
     text-align: center;
     padding-top: 100px;
+
 }
 h1 {
     font-size: 36px;
@@ -182,11 +183,12 @@ p{
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    background: #929AAB;
 }
 
 .experience {
     flex-basis: 40%;
-    background: #bff4ff;
+    background: #929AAB;
     border-radius: 18px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -200,11 +202,12 @@ p{
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    background: #929AAB;
 }
 
 .works {
     flex-basis: 40%;
-    background: #bff4ff;
+    background: #929AAB;
     border-radius: 18px;
     margin-bottom: 5%;
     padding: 20px 12px;
