@@ -149,13 +149,11 @@ nav .fa {
     width:80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 30px;
     opacity: .75;
     background: #021F4B;
+    border-radius: 15px;
 }
-.about :hover {
-    opacity: 1;
-} 
 
 h1 {
     font-size: 36px;
@@ -179,8 +177,9 @@ p{
     box-sizing: border-box;
     transition: 0.5s;
 }
-.about-me:hover{
+.about:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0.2);
+    opacity: 1;
 }
 
 /*----Exp-----*/
@@ -194,7 +193,7 @@ p{
     opacity: .75;
 }
 
-.exp :hover {
+.exp:hover {
     opacity: 1;
 }
 
@@ -219,7 +218,7 @@ p{
     opacity: .75;
 }
 
-.work {
+.work:hover {
     opacity: 1;
 }
 
@@ -228,7 +227,7 @@ p{
     background: #021F4B;
     border-radius: 15%;
     margin-bottom: 5%;
-    padding: 20px 12px;
+    padding-left: 30%;
     box-sizing: border-box;
     transition: 0.5s;
     text-align: center;
