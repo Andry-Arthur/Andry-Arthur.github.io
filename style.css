@@ -166,7 +166,7 @@ p{
 
 .about-me {
     flex-basis: 40%;
-    background: #bff4ff;
+    color: white;
     border-radius: 18px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -183,13 +183,14 @@ p{
     margin: auto;
     text-align: center;
     padding-top: 50px;
-    background: #929AAB;
+    background: #021F4B;
+    border-radius: 15%;
 }
 
 .experience {
     flex-basis: 40%;
-    background: #929AAB;
-    border-radius: 18px;
+    background: #021F4B;
+    border-radius: 15%;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
@@ -202,13 +203,14 @@ p{
     margin: auto;
     text-align: center;
     padding-top: 50px;
-    background: #929AAB;
+    background: #021F4B;
+    border-radius: 15%;
 }
 
 .works {
     flex-basis: 40%;
-    background: #929AAB;
-    border-radius: 18px;
+    background: #021F4B;
+    border-radius: 15%;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
