@@ -150,8 +150,13 @@ nav .fa {
     margin: auto;
     text-align: center;
     padding-top: 100px;
-
+    opacity: .75;
+    background: #021F4B;
 }
+.about :hover {
+    opacity: 1;
+} 
+
 h1 {
     font-size: 36px;
     font-weight: 600;
@@ -186,6 +191,11 @@ p{
     padding-top: 50px;
     background: #021F4B;
     border-radius: 18px;
+    opacity: .75;
+}
+
+.exp :hover {
+    opacity: 1;
 }
 
 .experience {
@@ -206,6 +216,11 @@ p{
     padding-top: 50px;
     background: #021F4B;
     border-radius: 18px;
+    opacity: .75;
+}
+
+.work {
+    opacity: 1;
 }
 
 .works {
@@ -221,8 +236,8 @@ p{
 
 .worklist {
   list-style-type: square;
-  text-align: center;
-  list-style-position: inside;
+  text-align: left;
+  list-style-position: outside;
 }
 
 /*------Contact------*/
