@@ -276,20 +276,24 @@ p{
 
 .fa-instagram {
   background: #ffe9fe;
-  color: white;
+  color: #E1306C;
+  font-size: 36px;
 }
 
 .fa-github {
   background: #4a2be4;
   color: white;
+  font-size: 36px;
 }
 
 .fa-google {
   background: #dd4b39;
   color: white;
+  font-size: 36px;
 }
 
 .fa-linkedin {
   background: #007bb5;
   color: white;
+  font-size: 36px;
 }
