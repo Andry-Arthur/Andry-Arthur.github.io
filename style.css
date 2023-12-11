@@ -20,6 +20,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: -3000;
 }
 
 .logo {
@@ -200,7 +201,6 @@ p{
     margin: auto;
     text-align: center;
     padding-top: 50px;
-    position: fixed;
 }
 
 .works {
