@@ -148,6 +148,7 @@ nav .fa {
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    position: fixed;
 }
 h1 {
     font-size: 36px;
@@ -199,6 +200,7 @@ p{
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    position: fixed;
 }
 
 .works {
