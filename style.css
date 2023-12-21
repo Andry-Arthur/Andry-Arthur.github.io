@@ -239,6 +239,11 @@ p{
   list-style-position: outside;
 }
 
+.block {
+    padding: 15px;
+    height: 60px;
+}
+
 /*------Contact------*/
 .contct {
     width: 80%;
