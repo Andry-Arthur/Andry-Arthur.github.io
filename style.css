@@ -160,11 +160,11 @@ nav .fa {
 h1 {
     font-size: 36px;
     font-weight: 600;
+    font-family: 'Yeseva One';
 }
 
 p{
     color: white;
-    font-family: 'Yeseva One';
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
