@@ -145,6 +145,9 @@ nav .fa {
     .nav-links ul {
         padding: 30px;
     }
+    .text-box p {
+        font-size: 14px;
+    }
 }
 /*---- about-----*/
 .about {
