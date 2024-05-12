@@ -280,10 +280,11 @@ p{
 .wrapper .picture {
     height: auto;
     border: 6px solid white;
+    background-color: white;
+    border-radius: 18px;
 }
 
 .wrapper .picture image {
-    max-width: 100%;
     min-width: 30%;
 }
 
