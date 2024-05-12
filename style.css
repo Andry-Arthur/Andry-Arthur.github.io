@@ -283,11 +283,15 @@ p{
     background-color: white;
     border-radius: 18px;
     background-size: 80%;
-    color: #021F4B;
 }
 
 .wrapper .picture image {
     min-width: 30%;
+}
+
+.wrapper .picture text {
+    color: #021F4B;
+    opacity: 50%;
 }
 
 /*------Icon------*/
