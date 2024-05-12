@@ -290,6 +290,7 @@ p{
 .wrapper .picture p {
     color: #021F4B;
     opacity: 5%;
+    z-index: 100;
 }
 
 .wrapper .picture image {
