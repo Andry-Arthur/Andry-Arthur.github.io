@@ -148,6 +148,10 @@ nav .fa {
     .text-box p {
         font-size: 14px;
     }
+    .picture img {
+        width: 50%;
+        height: 50%;
+    }
 }
 /*---- about-----*/
 .about {
