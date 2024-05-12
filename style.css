@@ -282,7 +282,7 @@ p{
     border: 6px solid white;
     background-color: white;
     border-radius: 18px;
-    background-size: 80%;
+    width: 80%;
 }
 
 .wrapper .picture image {
