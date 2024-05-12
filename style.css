@@ -277,15 +277,13 @@ p{
 }
 
 /*------Image------*/
-.picture {
+
+.wrapper .picture image {
+    border: 6px solid white;
+    border-radius: 15%;
     max-width: 100%;
     min-width: 30%;
     height: auto;
-}
-
-.picture image {
-    border: 6px solid white;
-    border-radius: 15%;
 }
 
 /*------Icon------*/
