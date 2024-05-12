@@ -277,6 +277,11 @@ p{
 }
 
 /*------Image------*/
+.wrapper .picture p {
+    color: #021F4B;
+    opacity: 5%;
+}
+
 .wrapper .picture {
     height: auto;
     border: 6px solid white;
@@ -287,12 +292,6 @@ p{
     margin-bottom: 5%;
 }
 
-.wrapper .picture p {
-    color: #021F4B;
-    opacity: 5%;
-    z-index: 100;
-    position: absolute;
-}
 
 .wrapper .picture image {
     min-width: 30%;
