@@ -149,8 +149,10 @@ nav .fa {
         font-size: 14px;
     }
     .wrapper .picture img {
-        width: 50%;
-        height: 50%;
+        width: 60%;
+        height: 60%;
+        background: white;
+        border-radius: 10px;
     }
 }
 /*---- about-----*/
