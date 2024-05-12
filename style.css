@@ -148,6 +148,9 @@ nav .fa {
     .text-box p {
         font-size: 14px;
     }
+    .picture {
+        size: 25%;
+    }
 }
 /*---- about-----*/
 .about {
