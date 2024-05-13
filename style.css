@@ -282,6 +282,11 @@ p{
     opacity: 5%;
 }
 
+.wrapper .picture h4 {
+    color: #021F4B;
+    float: right;
+}
+
 .wrapper .picture {
     height: auto;
     border: 6px solid white;
@@ -295,6 +300,7 @@ p{
 
 .wrapper .picture image {
     min-width: 30%;
+    float: left;
 }
 
 /*------Icon------*/
