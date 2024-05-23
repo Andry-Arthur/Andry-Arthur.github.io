@@ -279,9 +279,17 @@ p{
 /*------Image------*/
 .wrapper figcaption {
     color: #021F4B;
+    text-align: center;
+}
+
+.wrapper figcaption a {
+    color: purple;
 }
 
 .wrapper figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: auto;
     border: 6px solid white;
     background-color: white;
@@ -294,7 +302,7 @@ p{
 
 
 .wrapper figure image {
-    display: block;
+    flex: 1 0 auto;
     margin: auto;
     width: 70%;
     height: 70%;
