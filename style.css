@@ -296,6 +296,7 @@ p{
 .wrapper figure image {
     min-width: 30%;
     float: center;
+    padding: 1%;
 }
 
 /*------Icon------*/
