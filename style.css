@@ -277,22 +277,17 @@ p{
 }
 
 /*------Image------*/
-.wrapper .picture p {
-    color: #021F4B;
-    opacity: 5%;
-}
-
-.wrapper .picture h4 {
+.wrapper figcaption {
     color: #021F4B;
     float: right;
 }
 
-.wrapper .picture {
+.wrapper figure {
     height: auto;
     border: 6px solid white;
     background-color: white;
     border-radius: 18px;
-    width: 80%;
+    width: 60%;
     margin: auto;
     margin-bottom: 5%;
     padding-left: 3%;
@@ -302,7 +297,7 @@ p{
 }
 
 
-.wrapper .picture image {
+.wrapper figure image {
     min-width: 30%;
     float: left;
 }
