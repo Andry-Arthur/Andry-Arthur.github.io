@@ -279,7 +279,6 @@ p{
 /*------Image------*/
 .wrapper figcaption {
     color: #021F4B;
-    float: right;
 }
 
 .wrapper figure {
@@ -290,16 +289,12 @@ p{
     width: 60%;
     margin: auto;
     margin-bottom: 5%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 2%;
-    padding: 2%;
 }
 
 
 .wrapper figure image {
     min-width: 30%;
-    float: left;
+    float: center;
 }
 
 /*------Icon------*/
