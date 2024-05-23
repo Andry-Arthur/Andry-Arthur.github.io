@@ -286,9 +286,10 @@ p{
     border: 6px solid white;
     background-color: white;
     border-radius: 18px;
-    width: 60%;
+    width: 50%;
     margin: auto;
     margin-bottom: 5%;
+    padding: 1%;
 }
 
 
