@@ -6,12 +6,17 @@ body {
 }
 
 .main {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 5%;
     background-color: #021F4B;
     padding: 3%;
     border-radius: 10px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
 h3 {
     font-family: 'Yeseva One';
 }
