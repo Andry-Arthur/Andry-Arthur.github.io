@@ -2,8 +2,10 @@ body {
     background-image: url(stars.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'League Sparta';
+    font-family: 'League Spartan';
 }
+
+
 
 .main {
     margin: 5%;
