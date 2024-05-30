@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'League Spartan';
-    font-size: medium;
+    font-size: larger;
 }
 
 
@@ -21,6 +21,6 @@ body {
     min-height: 100vh;
     flex-direction: column;
 
-h3 {
+h2 {
     font-family: 'Yeseva One';
 }
