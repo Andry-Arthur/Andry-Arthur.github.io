@@ -16,6 +16,7 @@ body {
     align-items: center;
     text-align: center;
     min-height: 100vh;
+    flex-direction: column;
 
 h3 {
     font-family: 'Yeseva One';
