@@ -7,9 +7,10 @@ body {
 .main {
     margin-left: 5%;
     margin-right: 5%;
-    background-color: aqua;
-}
-
+    background-color: #021F4B;
+    padding: 3%;
+    border-radius: 10px;
+    color: white;
 h3 {
     font-family: 'Yeseva One';
 }
