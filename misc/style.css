@@ -20,7 +20,8 @@ body {
     text-align: center;
     min-height: 100vh;
     flex-direction: column;
-
+    opacity: .8;
+}
 h2 {
     font-family: 'Yeseva One';
 }
