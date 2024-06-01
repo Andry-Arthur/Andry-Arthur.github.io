@@ -17,6 +17,7 @@
 
 #gameContainer {
     text-align: center;
+    align-items: center;
 }
 
 #cellContainer {
