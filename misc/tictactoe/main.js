@@ -30,7 +30,6 @@ function initialzeGame() {
 
 function cellClicked() {
     const cellIndex = this.getAttribute("cellIndex");
-    console.log("cell clicked.");
     if(options[cellIndex] != "" || !running) {
         return;
     }
