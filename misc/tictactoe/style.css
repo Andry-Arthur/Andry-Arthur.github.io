@@ -1,8 +1,19 @@
+* {
+    font-family: 'League Spartan';
+}
+
 .cell {
     width: 75px;
     height: 75px;
     border: 2px solid;   
     box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 52px;
+    cursor: pointer;
+}
+
+#gameContainer {
+    text-align: center;
 }
 
 #cellContainer {
@@ -10,10 +21,6 @@
     grid-template-columns: repeat(3, auto);
     width: 225px;
     margin: auto;
-}
-
-* {
-    font-family: 'League Spartan';
 }
 
 h1 {
