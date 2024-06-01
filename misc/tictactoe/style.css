@@ -1,6 +1,5 @@
 * {
     font-family: 'League Spartan';
-    color: darkblue;
 }
 
 .cell {
@@ -11,6 +10,8 @@
     line-height: 75px;
     font-size: 52px;
     cursor: pointer;
+    color: darkblue;
+    font-family: 'League Spartan';
 }
 
 #gameContainer {
