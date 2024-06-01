@@ -25,3 +25,8 @@ body {
 h2 {
     font-family: 'Yeseva One';
 }
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
