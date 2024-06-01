@@ -71,6 +71,7 @@ function checkWinner() {
     }
     else if(!options.includes("")) {
         statusText.textContent = "It's a draw.";
+        running = false;
     }
     else {
         changePlayer();
