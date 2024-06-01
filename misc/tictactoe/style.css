@@ -12,6 +12,7 @@
     cursor: pointer;
     color: darkblue;
     font-family: 'League Spartan';
+    text-align: center;
 }
 
 #gameContainer {
