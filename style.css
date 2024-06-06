@@ -149,10 +149,8 @@ nav .fa {
         font-size: 14px;
     }
     .wrapper figure img {
-        max-height: 70%;
-        max-width: 70%;
-        width: auto;
-        height: auto;
+        height: 100%;
+        width: 100%;
         background: white;
         border-radius: 10px;
         background-size: 10%;
