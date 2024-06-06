@@ -436,4 +436,12 @@ p{
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    header a::after {
+       background: transparent;
+    }
+    
+    header a:hover:after {
+        width:50%;
+    }
 }
