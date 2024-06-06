@@ -420,6 +420,7 @@ p{
     header .hamburger {
         display: block;
         cursor: pointer;
+        padding-right: 5%;
     }
 
     header .hamburger.active .bar:nth-child(2) {
