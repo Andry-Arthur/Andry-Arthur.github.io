@@ -71,6 +71,21 @@ nav img{
 	width: 100%;
 }
 
+header .hamburger .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: rgb(0, 0, 0);
+}
+
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+
 .text-box {
 	width: 90%;
 	color: #fff;
@@ -346,5 +361,52 @@ p{
 
     .wrapper figcaption {
         font-size: 10px;
+    }
+
+    header .navbar .nav-menu {
+        display: flex;
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: black;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.5s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    header .navbar .nav-menu.active {
+        display: flex;
+        left: 0;
+        background-color: black;
+        z-index:999;
+        height: 100%;
+        min-width: 100%;
+    }
+
+    header .nav-menu .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    header .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    header .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    header .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    header .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
