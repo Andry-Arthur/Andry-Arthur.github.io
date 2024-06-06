@@ -345,12 +345,6 @@ p{
     .wrapper {
         overflow-x: hidden;
     }
-
-    header {
-        padding-left: 1%;
-        padding-right: 3%;
-    }
-
     .text-box h1 {
     	font-size: 20px;
     }
