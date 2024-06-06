@@ -400,6 +400,7 @@ p{
         transition: 0.5s;
         box-shadow:
             0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: -100;
     }
 
     header .navbar .nav-menu.active {
@@ -409,6 +410,7 @@ p{
         z-index:999;
         height: 100%;
         min-width: 100%;
+        z-index: 999;
     }
 
     header .nav-menu .nav-item {
